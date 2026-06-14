@@ -4,10 +4,11 @@ import org.springframework.core.convert.converter.Converter;
 import ubb.tickettradersbackend.entities.Event;
 import ubb.tickettradersbackend.entities.Ticket;
 import ubb.tickettradersbackend.entities.dtos.EventDTO;
-
+import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class EventConverter implements Converter<Event, EventDTO> {
     @Override
     public EventDTO convert(Event source) {
