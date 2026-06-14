@@ -3,6 +3,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.core.convert.converter.Converter;
 import ubb.tickettradersbackend.entities.Ticket;
 import ubb.tickettradersbackend.entities.dtos.TicketDTO;
+
 @Component
 public class TicketConverter implements Converter<Ticket, TicketDTO> {
     @Override

@@ -7,7 +7,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import ubb.tickettradersbackend.entities.dtos.TicketDTO;
 import ubb.tickettradersbackend.entities.validators.exceptions.ValidationException;
-
 import java.time.LocalDateTime;
 
 import static org.junit.jupiter.api.Assertions.*;
